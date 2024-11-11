@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      /* content  in center */
+      body {
+        display: flex;
+        justify-content: center;
+        background-color: grey;
+      }
+
+      /* box of calculator */
+      .calculator-box {
+        border-radius: 20px;
+        width: 300px;
+        height: 100%;
+        /* overflow-y: auto; */
+        background-color: white;
+        /* border: 1px solid black; */
+        padding: 15px;
+      }
+
+      /* show the output of the code */
+      #calculator-box-show {
+        width: 100%;
+        height: 70px;
+        background-color: whitesmoke;
+        /* border: 1px solid rgb(168, 160, 160); */
+        display: flex;
+        justify-content: end;
+      }
+      #calculator-box-show-output {
+        margin-right: 5px;
+      }
+
+      .calculator-box-input {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr); /* 4 columns */
+        grid-template-rows: repeat(5, 1fr); /* 5 rows */
+        gap: 10px;
+        margin-top: 10px;
+      }
+
+      /* Style for each box/button */
+      .box-1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: black;
+        color: white;
+        font-size: 1.5em;
+        height: 60px;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+    </style>
+    <!-- calculator -->
+  </head>
+  <body>
+    <div class="calculator-box">
+      <div id="calculator-box-show">
+        <div id="calculator-box-show-output">
+          <h1>0</h1>
+        </div>
+      </div>
+
+      <div class="calculator-box-input">
+        <div class="box-1">Ac</div>
+        <div class="box-1">+/-</div>
+        <div class="box-1">%</div>
+        <div class="box-1">/</div>
+        <div class="box-1">7</div>
+        <div class="box-1">8</div>
+        <div class="box-1">9</div>
+        <div class="box-1">*</div>
+        <div class="box-1">4</div>
+        <div class="box-1">5</div>
+        <div class="box-1">6</div>
+        <div class="box-1">-</div>
+        <div class="box-1">1</div>
+        <div class="box-1">2</div>
+        <div class="box-1">3</div>
+        <div class="box-1">+</div>
+        <div class="box-1">0</div>
+        <div class="box-1">.</div>
+        <div class="box-1">=</div>
+        
+      </div>
+    </div>
+  </body>
+</html>
