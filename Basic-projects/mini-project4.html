@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coming Soon Page</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            background-color: #fce4ec; /* Light pink background for styling */
+            font-family: monospace;
+        }
+        
+        .box-comingSoon {
+            width: 400px;
+            height: 500px;
+            background-color: #e0f7fa;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            border: 2px solid black;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        
+        .box-comingSoon img {
+            width: 100%; /* Makes the image fit the container width */
+            max-width: 350px;
+            height: auto; /* Maintains aspect ratio */
+            object-fit: contain;
+            margin-bottom: 20px;
+        }
+        
+        .box-comingSoon h1 {
+            text-align: center;
+            font-size: 24px;
+            color: #333;
+            margin: 10px 0;
+        }
+        
+        .box-comingSoon p {
+            text-align: center;
+            font-size: 16px;
+            color: #555;
+            margin: 10px 0 20px;
+        }
+        
+        .box-comingSoon input, .box-comingSoon button {
+            width: 100%; /* Fills the container width */
+            max-width: 350px;
+            height: 40px;
+            border: 2px solid black;
+            border-radius: 5px;
+            padding: 5px;
+            font-size: 16px;
+            margin-bottom: 10px;
+            box-sizing: border-box;
+        }
+        
+        .box-comingSoon button {
+            background-color: #ffab91;
+            color: #333;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        
+        .box-comingSoon button:hover {
+            background-color: #ff8a65;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="box-comingSoon">
+        <img src="mini-project-img.svg" alt="drone-img">
+        <h1>Coming soon..</h1>
+        <p>Embrace natural healing, embrace homeopathy.</p>
+        <form id="feedbackForm">
+            <input type="email" id="feedbackInput" placeholder="Enter your Email" required>
+            <button type="submit">Login</button>
+        </form>
+    </div>
+</body>
+</html>
