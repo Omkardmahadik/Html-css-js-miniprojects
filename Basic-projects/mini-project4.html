@@ -86,5 +86,13 @@
             <button type="submit">Login</button>
         </form>
     </div>
+    <script>
+        document.getElementById(`feedbackForm`).addEventListener(`submit`,function(event){ 
+    event.preventDefault();
+    let input = document.getElementById(`feedbackInput`);   
+     document.getElementById(`feedbackDisplay`).textContent= `Feedback is: ${input.value}`
+    
+})
+    </script>
 </body>
 </html>
