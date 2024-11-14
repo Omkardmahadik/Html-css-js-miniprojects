@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    height: 60px;
+    background-color: black;
+}
+.header-text-1{
+    color: white;
+    padding: 20px;
+    margin-left: 10rem;
+}
+.header-info{
+    display: flex;
+    justify-content: end;
+    margin-top: -15px;
+}
+
+nav{
+   width: 100%;
+   height: 60px;
+   background-color: whitesmoke; 
+   
+}
+/* nav part */
+.logo{
+    padding: 15px;
+}
+ul {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    position: relative;
+    bottom: 20px;
+    gap: 30px; /* Space between navigation links */
+    list-style: none;
+    margin-left: auto; /* Push the nav links to the right */
+}
+
+ul li {
+    cursor: pointer;
+    font-size: 20px;
+}
+ /* li::hover{
+    text-decoration: dashed solid pink;
+} */
+
+/* banner */
+.ecommerce-banner1 img{
+   width: 100%;
+   height: 20%;
+   box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+}
