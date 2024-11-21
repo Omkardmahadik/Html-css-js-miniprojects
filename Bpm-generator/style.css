@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* contents in center */
+body{
+ display: flex;
+ justify-content: center;
+ margin: 50px;
+}
+/* main-box */
+.bpm-box{
+    width: 300px;
+    height: 200px;
+    background-color:aquamarine;
+    position: relative;
+    border: 3px solid green;
+    border-radius: 20px;
+}
+/* content in center */
+h1{
+    text-align: center;
+}
+
+#input-1,#input-2,#button{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    position: relative;
+    top: 20px;
+}
+
+
